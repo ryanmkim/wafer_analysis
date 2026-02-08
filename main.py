@@ -312,7 +312,7 @@ def main():
     pdf_path = f'{OUTPUT_DIR}/field_guide.pdf'
     generate_pdf(all_stats, total_wafers, pdf_path)
     
-    print(f"\nDone! PDF saved to {pdf_path}")
+    print(f"Done PDF saved to {pdf_path}")
 
 if __name__ == '__main__':
     main()
